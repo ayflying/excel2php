@@ -1,0 +1,22 @@
+{
+  "name": "ayflying/excel2php",
+  "description": "excel数据表转php数据的工具",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Ayflying\\Excel2php\\": "src/"
+    }
+  },
+  "homepage": "http://blog.7cuu.com/",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "An Yang",
+      "email": "ay@7cuu.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2.5",
+    "phpoffice/phpspreadsheet": "*"
+  }
+}
